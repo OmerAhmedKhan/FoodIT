@@ -1,0 +1,182 @@
+<resources>
+    <string name="app_name">FoodIt</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="login_into_your_app">Login to your app</string>
+
+    <string name="slide_1_title">Main Main Main Title</string>
+    <string name="slide_1_desc">Here go the description a little put some description here to tell users what your app do</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="add_post">New Post</string>
+    <string name="title_hint">Write a title</string>
+    <string name="lost_from_hint">Lost from</string>
+    <string name="found_at_hint">Found at</string>
+    <string name="description_hint">Write a description</string>
+    <string name="post_category">Post Category</string>
+    <string name="post_photos">Attach Photos</string>
+    <string name="lost">Lost</string>
+    <string name="found">Found</string>
+    <string name="error_gif">x or y bound size should be at least %1$dpx and file size should be no more than %2$sM</string>
+    <string name="username_or_email">Username or Email</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="add_item">Add New Item</string>
+    <string name="details">Details</string>
+    <string name="headline">Headline</string>
+    <string name="food_name">Food Name</string>
+    <string name="brief_description">Brief Description</string>
+    <string name="permission_request">The app needs to access files on your device</string>
+    <string name="save">SUBMIT</string>
+    <string name="price">Price</string>
+    <string name="shop_location">Shop Location</string>
+    <string name="notifications">Notifications</string>
+    <string name="loader_message">Loading food items from server</string>
+    <string name="please_wait_title">Please Wait</string>
+    <string name="nostalgic_food">Nostalgic Food</string>
+
+    <string-array name="all_community">
+        <item>ALL</item>
+        <item>Arabic</item>
+        <item>European</item>
+        <item>Asians </item>
+    </string-array>
+
+    <string-array name="community">
+        <item>Select Community</item>
+        <item>Arabic</item>
+        <item>European</item>
+        <item>Asians </item>
+    </string-array>
+
+
+    <string-array name="categories">
+        <item>Select Categories/Tags</item>
+        <item>Desi</item>
+        <item>BBQ </item>
+        <item>Mocktails</item>
+        <item>Chineese</item>
+        <item>Desserts</item>
+        <item>Steaks</item>
+        <item>SeaFood</item>
+        <item>Icecream</item>
+        <item>Diet</item>
+    </string-array>
+
+    <string-array name="all_country">
+        <item>ALL</item>
+        <item>Albania</item>
+        <item>Andorra</item>
+        <item>Armenia</item>
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+        <item>Bosnia and Herzegovina</item>
+        <item>Bulgaria</item>
+        <item>Croatia</item>
+        <item>Cyprus</item>
+        <item>Czechia</item>
+        <item>Denmark</item>
+        <item>Estonia</item>
+        <item>Finland</item>
+        <item>France</item>
+        <item>Georgia</item>
+        <item>Germany</item>
+        <item>Greece</item>
+        <item>Hungary</item>
+        <item>Iceland</item>
+        <item>Germany</item>
+        <item>Ireland</item>
+        <item>Iceland</item>
+        <item>Italy</item>
+        <item>Kazakhstan</item>
+        <item>Kosovo</item>
+        <item>Latvia</item>
+        <item>Liechtenstein</item>
+        <item>Lithuania</item>
+        <item>Luxembourg</item>
+        <item>Malta</item>
+        <item>Moldova</item>
+        <item>Monaco</item>
+        <item>Montenegro</item>
+        <item>Netherlands</item>
+        <item>North Macedonia</item>
+        <item>Norway</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Romania</item>
+        <item>Russia</item>
+        <item>San Marino</item>
+        <item>Serbia</item>
+        <item>Slovakia</item>
+        <item>Slovenia</item>
+        <item>Spain</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>Turkey</item>
+        <item>Ukraine</item>
+        <item>United Kingdom (UK)</item>
+        <item>Vatican City (Holy See)</item>
+    </string-array> \
+
+    <string-array name="country">
+        <item>Select Country</item>
+        <item>Albania</item>
+        <item>Andorra</item>
+        <item>Armenia</item>
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+        <item>Bosnia and Herzegovina</item>
+        <item>Bulgaria</item>
+        <item>Croatia</item>
+        <item>Cyprus</item>
+        <item>Czechia</item>
+        <item>Denmark</item>
+        <item>Estonia</item>
+        <item>Finland</item>
+        <item>France</item>
+        <item>Georgia</item>
+        <item>Germany</item>
+        <item>Greece</item>
+        <item>Hungary</item>
+        <item>Iceland</item>
+        <item>Germany</item>
+        <item>Ireland</item>
+        <item>Iceland</item>
+        <item>Italy</item>
+        <item>Kazakhstan</item>
+        <item>Kosovo</item>
+        <item>Latvia</item>
+        <item>Liechtenstein</item>
+        <item>Lithuania</item>
+        <item>Luxembourg</item>
+        <item>Malta</item>
+        <item>Moldova</item>
+        <item>Monaco</item>
+        <item>Montenegro</item>
+        <item>Netherlands</item>
+        <item>North Macedonia</item>
+        <item>Norway</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Romania</item>
+        <item>Russia</item>
+        <item>San Marino</item>
+        <item>Serbia</item>
+        <item>Slovakia</item>
+        <item>Slovenia</item>
+        <item>Spain</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>Turkey</item>
+        <item>Ukraine</item>
+        <item>United Kingdom (UK)</item>
+        <item>Vatican City (Holy See)</item>
+    </string-array>
+</resources>
+

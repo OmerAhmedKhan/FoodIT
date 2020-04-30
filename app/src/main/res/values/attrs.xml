@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="GalleryPreviewImageView">
+        <attr name="addImageButton" format="reference"/>
+        <attr name="selectedImageButton" format="reference"/>
+        <attr name="cancelImageButton" format="reference"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,18 @@
+<androidx.appcompat.widget.Toolbar android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/colorPrimary"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/font_18sp"
+        style="@style/FontBold"
+        tools:text="Toolbar Title"
+        android:inputType="textCapWords"
+        android:layout_gravity="center"
+        android:id="@+id/toolbar_title" />
+</androidx.appcompat.widget.Toolbar>

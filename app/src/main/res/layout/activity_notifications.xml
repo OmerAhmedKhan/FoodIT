@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/custom_toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_3x"
+            android:layout_marginEnd="@dimen/margin_3x"
+            android:layout_marginBottom="@dimen/margin_3x"
+            android:orientation="vertical">
+
+
+            <TextView
+                style="@style/FontRegular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_3x"
+                android:text="Subscribe to the tags/categories for Notifications "
+                android:textSize="@dimen/text_size_medium" />
+
+
+            <Switch
+                android:id="@+id/bbq"
+                android:theme="@style/ToggleSwitchTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BBQ" />
+
+            <Switch
+                android:id="@+id/desi"
+                android:theme="@style/ToggleSwitchTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_1x"
+                android:text="Desi" />
+
+
+            <Switch
+                android:id="@+id/mocktails"
+                android:theme="@style/ToggleSwitchTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_1x"
+                android:text="Mocktails" />
+
+
+            <Switch
+                android:id="@+id/chineese"
+                android:theme="@style/ToggleSwitchTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_1x"
+                android:text="Chineese" />
+
+
+            <Switch
+                android:id="@+id/desserts"
+                android:theme="@style/ToggleSwitchTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_1x"
+                android:text="Desserts" />
+
+            <Switch
+                android:id="@+id/steaks"
+                android:theme="@style/ToggleSwitchTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_1x"
+                android:text="Steaks" />
+
+            <Switch
+                android:id="@+id/seafood"
+                android:theme="@style/ToggleSwitchTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_1x"
+                android:text="Seafood" />
+
+
+            <Switch
+                android:id="@+id/icecream"
+                android:theme="@style/ToggleSwitchTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_1x"
+                android:text="Icecream" />
+
+            <Switch
+                android:id="@+id/diet"
+                android:theme="@style/ToggleSwitchTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_1x"
+                android:text="Diet" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin_3x"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:text="Save"
+                android:visibility="gone"
+                android:textColor="@color/colorWhite" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

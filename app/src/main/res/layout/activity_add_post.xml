@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/custom_toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_3x"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/inputLayoutUltrasousadsadasndDate"
+                style="@style/FontRegular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:hintTextColor="@color/colorPrimaryDark">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/name"
+                    style="@style/FontRegular"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:cursorVisible="true"
+                    android:gravity="top|left"
+                    android:hint="@string/food_name"
+                    android:inputType="text"
+                    android:lines="8"
+                    android:maxLines="5"
+                    android:minLines="2"
+                    android:scrollbars="vertical"
+                    android:singleLine="true"
+                    android:textSize="@dimen/font_16sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/addressTextInputLayout"
+                style="@style/FontRegular"
+                android:layout_marginTop="@dimen/margin_3x"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:hintTextColor="@color/colorPrimary">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/price"
+                    style="@style/FontRegular"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:cursorVisible="true"
+                    android:gravity="top|left"
+                    android:hint="@string/price"
+                    android:inputType="numberDecimal"
+                    android:singleLine="true"
+                    android:textSize="@dimen/font_16sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/FontRegular"
+                android:layout_marginTop="@dimen/margin_3x"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:hintTextColor="@color/colorPrimary">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/location"
+                    style="@style/FontRegular"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:cursorVisible="true"
+                    android:gravity="top|left"
+                    android:hint="@string/shop_location"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:textSize="@dimen/font_16sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/inputLayoutUltrasoundDate"
+                style="@style/FontRegular"
+                android:layout_marginTop="@dimen/margin_3x"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:hintTextColor="@color/colorPrimary">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/desc"
+                    style="@style/FontRegular"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:cursorVisible="true"
+                    android:gravity="top|left"
+                    android:hint="@string/brief_description"
+                    android:inputType="textMultiLine"
+                    android:lines="8"
+                    android:maxLines="5"
+                    android:minLines="2"
+                    android:scrollbars="vertical"
+                    android:textSize="@dimen/font_16sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <Spinner
+                android:id="@+id/spinnerCategory"
+                android:layout_marginTop="@dimen/margin_3x"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textSize="@dimen/text_size_medium" />
+
+            <Spinner
+                android:id="@+id/spinnerCommunity"
+                android:layout_marginTop="@dimen/margin_3x"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textSize="@dimen/text_size_medium" />
+
+            <Spinner
+                android:id="@+id/spinnerCountry"
+                android:layout_marginTop="@dimen/margin_3x"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textSize="@dimen/text_size_medium" />
+
+            <TextView
+                style="@style/FontBold"
+                android:layout_marginTop="@dimen/margin_3x"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/add_photo"
+                android:textSize="@dimen/text_size_small" />
+
+
+            <ImageView
+                android:id="@+id/mImageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="@dimen/margin_1x"
+                android:src="@drawable/ic_placeholder" />
+
+            <TextView
+                android:id="@+id/mTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

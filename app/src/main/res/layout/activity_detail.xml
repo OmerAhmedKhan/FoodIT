@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <include layout="@layout/custom_toolbar" />
+
+    <com.smarteist.autoimageslider.SliderLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:visibility="gone"
+        android:layout_alignParentTop="true"
+        android:id="@+id/imageSlider"/>
+
+   <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/ic_placeholder"
+        android:layout_alignParentTop="true"/>
+
+
+    <LinearLayout
+        android:layout_margin="@dimen/margin_2x"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titleTv"
+            style="@style/FontRegular"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="start|center_horizontal"
+            android:layout_marginTop="@dimen/margin_2x"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/text_size_very_large"
+            android:text="@string/title" />
+
+        <TextView
+            android:id="@+id/descriptionTv"
+            style="@style/FontRegular"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="start|center_horizontal"
+            android:layout_marginTop="@dimen/margin_1x"
+            android:textSize="@dimen/font_22sp"
+            android:textStyle="italic"
+            android:text="@string/description" />
+
+        <TextView
+            android:id="@+id/price"
+            style="@style/FontRegular"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="start|center_horizontal"
+            android:layout_marginTop="@dimen/margin_1x"
+            android:textSize="@dimen/text_size_medium"
+            android:text="@string/app_name" />
+
+        <TextView
+            android:id="@+id/shop"
+            style="@style/FontRegular"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="start|center_horizontal"
+            android:layout_marginTop="@dimen/margin_1x"
+            android:textSize="@dimen/text_size_medium"
+            android:text="@string/app_name" />
+
+        <TextView
+            android:id="@+id/category"
+            style="@style/FontRegular"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="start|center_horizontal"
+            android:layout_marginTop="@dimen/margin_1x"
+            android:textSize="@dimen/text_size_medium"
+            android:text="@string/app_name" />
+
+        <TextView
+            android:id="@+id/community"
+            style="@style/FontRegular"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="start|center_horizontal"
+            android:layout_marginTop="@dimen/margin_1x"
+            android:textSize="@dimen/text_size_medium"
+            android:text="@string/app_name" />
+
+        <TextView
+            android:id="@+id/country"
+            style="@style/FontRegular"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="start|center_horizontal"
+            android:layout_marginTop="@dimen/margin_1x"
+            android:textSize="@dimen/text_size_medium"
+            android:text="@string/app_name" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Reviews"
+        android:textSize="30sp"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="@dimen/margin_2x"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/margin_2x"
+        android:layout_marginTop="5dp"
+        android:scrollbars="vertical"/>
+
+</LinearLayout>

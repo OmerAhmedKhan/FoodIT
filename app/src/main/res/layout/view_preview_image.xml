@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="120dp"
+    android:layout_height="120dp"
+    android:orientation="vertical"
+    android:background="@android:color/transparent">
+
+    <ImageButton
+        android:id="@+id/galleryImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        android:padding="@dimen/margin_2x"
+        android:background="@drawable/placeholder"/>
+
+    <ImageButton
+        android:id="@+id/addImageButton"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:scaleType="centerCrop"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/margin_1x"
+        android:layout_marginEnd="@dimen/margin_1x"
+        android:background="@drawable/camera"/>
+
+    <ImageButton
+        android:id="@+id/previewImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:visibility="gone"
+        android:maxHeight="120dp"
+        android:maxWidth="120dp" />
+
+    <ImageButton
+        android:id="@+id/closeImageButton"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:scaleType="centerCrop"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/margin_1x"
+        android:visibility="gone"
+        android:layout_marginEnd="@dimen/margin_1x"
+        android:background="@drawable/cancel"/>
+</RelativeLayout>

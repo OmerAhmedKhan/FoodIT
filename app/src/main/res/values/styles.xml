@@ -1,0 +1,148 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/colorYello</item>
+        <item name="colorControlActivated">@color/colorLightYellow</item>
+    </style>
+
+    <style name="AppThemeMaterial" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Popup.Dracula" parent="Widget.AppCompat.ListPopupWindow">
+        <item name="android:popupBackground">@color/colorPrimary</item>
+    </style>
+
+<!--    <style name="AppTheme.NoActionBar">-->
+<!--        <item name="windowActionBar">false</item>-->
+<!--        <item name="windowNoTitle">true</item>-->
+<!--        <item name="colorAccent">@color/colorPrimary</item>-->
+<!--    </style>-->
+
+    <style name="FontRegular">
+        <item name="android:fontFamily">@font/inter_regular</item>
+        <item name="fontFamily">@font/inter_regular</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="FontMedium">
+        <item name="android:fontFamily">@font/inter_medium</item>
+        <item name="fontFamily">@font/inter_medium</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="FontSemiBold">
+        <item name="android:fontFamily">@font/inter_semibold</item>
+        <item name="fontFamily">@font/inter_semibold</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="FontBold">
+        <item name="android:fontFamily">@font/inter_bold</item>
+        <item name="fontFamily">@font/inter_bold</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="TextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeColor">@color/text_input_box_stroke</item>
+    </style>
+
+    <style name="TabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabTextAppearance">@style/TabText</item>
+        <item name="tabSelectedTextColor">@color/colorWhite</item>
+        <item name="tabIndicatorColor">@color/colorWhite</item>
+    </style>
+
+    <style name="TabText" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">@dimen/font_14sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:fontFamily">@font/inter_semibold</item>
+    </style>
+
+
+    <style name="PopupBackground" parent="Widget.AppCompat.ListPopupWindow">
+        <item name="android:popupBackground">@color/colorPrimary</item>
+        <item name="android:popupElevation">0dp</item>
+    </style>
+
+    <style name="AppImageSelectorTheme" parent="Theme.AppCompat.Light.NoActionBar">
+<!--        <item name="colorPrimary">@color/colorPrimary</item>-->
+<!--        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+<!--        <item name="toolbar">@style/Toolbar.Dracula</item>-->
+<!--        <item name="album.dropdown.title.color">@color/zhihu_album_dropdown_title_text</item>-->
+<!--        <item name="album.dropdown.count.color">@color/zhihu_album_dropdown_count_text</item>-->
+<!--        <item name="album.element.color">@android:color/white</item>-->
+<!--        <item name="album.thumbnail.placeholder">@color/colorWhite</item>-->
+<!--        <item name="album.emptyView">@drawable/ic_empty_zhihu</item>-->
+<!--        <item name="album.emptyView.textColor">@color/zhihu_album_empty_view</item>-->
+<!--        <item name="item.placeholder">@color/zhihu_item_placeholder</item>-->
+<!--        <item name="item.checkCircle.backgroundColor">@color/colorPrimary</item>-->
+<!--        <item name="item.checkCircle.borderColor">@color/colorWhite</item>-->
+<!--        <item name="page.bg">@color/colorWhite</item>-->
+<!--        <item name="bottomToolbar.bg">@color/colorPrimary</item>-->
+<!--        <item name="bottomToolbar.preview.textColor">@color/colorWhite</item>-->
+<!--        <item name="bottomToolbar.apply.textColor">@color/colorWhite</item>-->
+<!--        <item name="preview.bottomToolbar.back.textColor">@color/colorWhite</item>-->
+<!--        <item name="preview.bottomToolbar.apply.textColor">@color/colorWhite</item>-->
+<!--&lt;!&ndash;        <item name="android:listPopupWindowStyle">@style/PopupBackground</item>&ndash;&gt;-->
+<!--&lt;!&ndash;        <item name="listPopupWindowStyle">@style/PopupBackground</item>&ndash;&gt;-->
+<!--        <item name="listPopupWindowStyle">@style/Popup.Zhihu</item>-->
+<!--        <item name="capture.textColor">@color/colorWhite</item>-->
+<!--        <item name="android:fontFamily">@font/montserrat_medium</item>-->
+<!--        <item name="fontFamily">@font/montserrat_medium</item>-->
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="toolbar">@style/Toolbar.Zhihu</item>
+        <item name="album.dropdown.title.color">@color/zhihu_album_dropdown_title_text</item>
+        <item name="album.dropdown.count.color">@color/zhihu_album_dropdown_count_text</item>
+        <item name="album.element.color">@android:color/white</item>
+        <item name="album.thumbnail.placeholder">@color/zhihu_album_dropdown_thumbnail_placeholder</item>
+        <item name="album.emptyView">@drawable/ic_empty_zhihu</item>
+        <item name="album.emptyView.textColor">@color/zhihu_album_empty_view</item>
+        <item name="item.placeholder">@color/zhihu_item_placeholder</item>
+        <item name="item.checkCircle.backgroundColor">@color/colorPrimary</item>
+        <item name="item.checkCircle.borderColor">@color/zhihu_item_checkCircle_borderColor</item>
+        <item name="page.bg">@color/zhihu_page_bg</item>
+        <item name="bottomToolbar.bg">@color/colorPrimary</item>
+        <item name="bottomToolbar.preview.textColor">@color/color_gallery_preview_button</item>
+        <item name="bottomToolbar.apply.textColor">@color/color_gallery_preview_button</item>
+        <item name="preview.bottomToolbar.back.textColor">@color/zhihu_preview_bottom_toolbar_back_text</item>
+        <item name="preview.bottomToolbar.apply.textColor">@color/colorWhite</item>
+<!--        <item name="listPopupWindowStyle">@style/Popup.Zhihu</item>-->
+        <item name="capture.textColor">@color/zhihu_capture</item>
+
+    </style>
+
+    <style name="PopupZhihu" parent="Widget.AppCompat.Light.ListPopupWindow">
+        <item name="android:popupBackground">@color/colorPrimary</item>
+    </style>
+
+    <style name="ImagePickerTheme" parent="ef_BaseTheme">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/ef_colorAccent</item>
+    </style>
+
+    <style name="ToggleSwitchTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+    </style>
+
+</resources>
